@@ -14,7 +14,6 @@ function App() {
         <Navbar />
         <Route>
           <Route path='/' exact component={Home} />
-          <Route path='/' exact component={Home} />
           <Route path='/vistoria' component={Vistoria} />
           <Route path='/entrar' component={Entrar} />
           <Route path='/criar-conta' component={CriarConta} />
