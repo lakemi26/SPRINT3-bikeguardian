@@ -1,8 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
 import Banner from '../Banner';
-import Footer from '../Footer';
 import BannerCoberturas from '../BannerCoberturas';
 import LinhaCoberturas from '../LinhaCoberturas';
 import LinhaBikes from '../LinhaBikes';
