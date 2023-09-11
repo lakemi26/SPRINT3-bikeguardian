@@ -11,10 +11,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
   margin-bottom: 24px;
   padding: 24px;
   color: #242424;
+}
+
+.footer-column a{
+  text-decoration: none;
 }
 
 .footer-information{
