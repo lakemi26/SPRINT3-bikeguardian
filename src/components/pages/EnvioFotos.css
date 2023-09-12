@@ -1,0 +1,32 @@
+.containerEnvio{
+    display: flex;
+    flex-direction: row;
+}
+
+.QRcode{
+    background-image: url(../../../public/images/img-qrcode.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto p{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.texto p a {
+    text-decoration: none;
+    color:#0075E0;
+}

@@ -225,8 +225,14 @@ const FormulariosBike = () => {
             </select>
             </label>    
             </div>
-            <button type="submit"><a href="/CadastroBike">Próximo</a></button>
-            
+            <div className='botoes'>
+            <button>
+                <a href="/EnvioFotos">Enviar fotos</a>
+            </button>
+            <button>
+                <a href="/PagClie">Enviar fotos mais tarde</a>
+            </button>
+            </div>
           </form>
         </div>
       );

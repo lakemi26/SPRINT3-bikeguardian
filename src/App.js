@@ -10,6 +10,7 @@ import CriarConta from './components/pages/CriarConta';
 import AncientCode from './components/pages/AncientCode';
 import PagClie from './components/pages/PagClie';
 import CadastroBike from './components/pages/CadastroBike';
+import EnvioFotos from './components/pages/EnvioFotos';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/AncientCode' component={AncientCode} />
           <Route path='/PagClie' component={PagClie} />
           <Route path='/CadastroBike' component={CadastroBike}/>
+          <Route path='/EnvioFotos' component={EnvioFotos}/>
           
         </Route>
         <Footer/>
