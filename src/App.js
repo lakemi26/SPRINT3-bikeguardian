@@ -7,6 +7,7 @@ import Login from './components/pages/Login';
 import Solicite from './components/pages/Solicite';
 import Footer from './components/Footer';
 import CriarConta from './components/pages/CriarConta';
+import AncientCode from './components/pages/AncientCode';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/CriarConta' component={CriarConta} />
           <Route path='/solicite' component={Solicite} />
+          <Route path='/AncientCode' component={AncientCode} />
           
         </Route>
         <Footer/>

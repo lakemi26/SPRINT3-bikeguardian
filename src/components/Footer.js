@@ -23,9 +23,9 @@ function Footer() {
         </div>
         </div>
         
-        <div className="footer-column">
+        <div className="footer-logos">
           <a href="https://portoseguro.com.br/"><img src='/images/logo-porto2.png' alt='Logo Porto Seguro'/></a>
-          <a href="https://www.exemplo.com"><img src='/images/logoAncientCode.jpeg' alt='Logo Ancient Code'/></a>
+          <a href="/AncientCode"><img src='/images/AncientCodeLogo.png' alt='Logo Ancient Code'/></a>
 
         </div>
       </section>
