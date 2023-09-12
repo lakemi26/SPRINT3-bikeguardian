@@ -1,14 +1,14 @@
 .footer-container {
   background-color: #f0f0f0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 30px;
 }
 
 .footer-subscription {
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
@@ -19,13 +19,13 @@
   text-decoration: none;
   margin: 10px;
   font-size: 18px;
-  text-align: end;
   color:#08a4ff;
 }
 
 .footer-logos{
   display: flex;
   flex-direction: column;
+  margin-right: 60px;
 }
 
 .footer-logos img{
@@ -36,6 +36,7 @@
 .footer-information{
   display: flex;
   flex-direction: column;
+  margin-left: 60px;
 }
 
 .footer-subscription  p {
@@ -96,5 +97,4 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-}
+

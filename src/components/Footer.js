@@ -4,7 +4,6 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
         <div className='footer-information'>
       <div className="footer-column">
         <a href="https://portoseguro-helpsite-prod.b01.inbenta.services/canal-de-ajuda">Perguntas Frequentes</a>
@@ -28,7 +27,6 @@ function Footer() {
           <a href="/AncientCode"><img src='/images/AncientCodeLogo.png' alt='Logo Ancient Code'/></a>
 
         </div>
-      </section>
     </div>
   );
 }
