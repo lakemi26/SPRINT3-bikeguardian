@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import CriarConta from './components/pages/CriarConta';
 import AncientCode from './components/pages/AncientCode';
 import PagClie from './components/pages/PagClie';
+import CadastroBike from './components/pages/CadastroBike';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/solicite' component={Solicite} />
           <Route path='/AncientCode' component={AncientCode} />
           <Route path='/PagClie' component={PagClie} />
+          <Route path='/CadastroBike' component={CadastroBike}/>
           
         </Route>
         <Footer/>
