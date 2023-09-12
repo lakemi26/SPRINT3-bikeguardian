@@ -60,7 +60,7 @@ const Login = () => {
           to="/solicite">aqui!</Link>
         </p>
         <button>
-          <a href="https://www.exemplo.com">Entrar</a>
+          <a href="/PagClie">Entrar</a>
         </button>
       </form>
     </div>

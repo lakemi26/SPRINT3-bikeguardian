@@ -1,0 +1,50 @@
+.DivSolicite h1{
+    margin-bottom: 20px;
+}
+
+.DivSolicite2{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.DivSolicite2 p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 25px;
+}
+
+.ImgSolicite{
+    background-image: url(../../../public/images/ImgSolicite.jpg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 100%;
+}
+
+.textoSolicite p{
+    text-align: right;
+}
+
+.DivSolicite2 button{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .DivSolicite2{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+    }
+
+    .DivSolicite2 p{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}

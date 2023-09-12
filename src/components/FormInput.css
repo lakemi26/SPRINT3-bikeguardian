@@ -1,16 +1,21 @@
 .FormInput{
     display: flex;
     flex-direction: column;
-    width: 280px;
+
 }
 
 input{
     padding: 15px;
     margin: 10px 0px;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 1px solid gray;
+    color:#0075E0;
 }
 
+input::placeholder,
+textarea::placeholder {
+  color: #0075E0; /* Substitua com a cor desejada */
+}
 
 label{
     font-size: 12px;
