@@ -8,6 +8,7 @@ import Solicite from './components/pages/Solicite';
 import Footer from './components/Footer';
 import CriarConta from './components/pages/CriarConta';
 import AncientCode from './components/pages/AncientCode';
+import PagClie from './components/pages/PagClie';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/CriarConta' component={CriarConta} />
           <Route path='/solicite' component={Solicite} />
           <Route path='/AncientCode' component={AncientCode} />
+          <Route path='/PagClie' component={PagClie} />
           
         </Route>
         <Footer/>
