@@ -1,6 +1,8 @@
 .containerEnvio{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .QRcode{
@@ -29,4 +31,11 @@
 .texto p a {
     text-decoration: none;
     color:#0075E0;
+}
+
+@media screen and (max-width: 820px) {
+    .containerEnvio{
+        display: flex;
+        flex-direction: column;
+    }
 }
