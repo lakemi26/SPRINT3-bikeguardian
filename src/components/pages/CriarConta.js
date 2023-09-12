@@ -40,7 +40,7 @@ const CriarConta = () => {
     },
     {
       id: 3,
-      name: "Data de nascimento",
+      name: "nascimento",
       type: "date",
       placeholder: "Data de nascimento",
       label: "Data de nascimento",

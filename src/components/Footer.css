@@ -25,7 +25,7 @@
   flex-direction: column;
 }
 
-.footer-subscription > p {
+.footer-subscription  p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,6 +37,16 @@
 .footer-subscription-text {
   margin-bottom: 24px;
   font-size: 20px;
+}
+
+.footer-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column img{
+  width: 150px;
+  height: auto;
 }
 
 

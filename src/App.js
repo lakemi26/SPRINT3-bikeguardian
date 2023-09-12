@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Login from './components/pages/Login';
 import Solicite from './components/pages/Solicite';
 import Footer from './components/Footer';
+import CriarConta from './components/pages/CriarConta';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <Route>
           <Route path='/' exact component={Home} />
           <Route path='/login' component={Login} />
+          <Route path='/CriarConta' component={CriarConta} />
           <Route path='/solicite' component={Solicite} />
+          
         </Route>
         <Footer/>
       </Router>
