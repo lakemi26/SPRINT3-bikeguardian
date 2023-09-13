@@ -65,6 +65,11 @@
 
 
 @media screen and (max-width: 820px) {
+  .footer-information {
+    text-align: center;
+    margin-right: 105px;
+  }
+
   .footer-links {
     padding-top: 2rem;
   }

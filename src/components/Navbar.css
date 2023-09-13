@@ -73,6 +73,12 @@
   display: none;
 }
 
+@media (max-width: 958px) {
+  .navbar-logo img{
+    width: 40%;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar-logo img{
     width: 50%;
